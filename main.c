@@ -60,9 +60,6 @@ int main(void) {
     int pikaCHU;
     int charZRD;
     int opt;
-    int lvL;
-    int atkNME;
-    int poWR;
     
     printf("Enter Pokemon Name (Pikachu : 1 or Charizard : 2): ");
     scanf("%d", &opt);
@@ -88,3 +85,4 @@ int main(void) {
     /* Problem 3 End */
   }
 }
+return 0;
