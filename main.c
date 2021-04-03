@@ -57,20 +57,7 @@ int main(void) {
     
     // TODO: Your P2 code goes here
     // Good luck!!
-    int pikaCHU;
-    int charZRD;
-    int opt;
-    
-    printf("Enter Pokemon Name (Pikachu : 1 or Charizard : 2): ");
-    scanf("%d", &opt);
-
-    if(opt == 1) {
-      printf("Enter Pikachu Level (1 - 100): ");
-      
-
-    }else if(opt == 2) {
-      printf("Enter Charizard Level (1 - 100): ");
-    }
+   
 
     /* Problem 2 End */
   } else if(opt == 3) {
@@ -85,4 +72,3 @@ int main(void) {
     /* Problem 3 End */
   }
 }
-return 0;
