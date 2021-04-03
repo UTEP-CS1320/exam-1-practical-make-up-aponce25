@@ -45,9 +45,7 @@ int main(void) {
     } else if(sysP >= 180 || diasP >= 120) {
       printf("Hypertensive Crysis\n");
 
-    } else if(sysP < diasP && sysP > diasP) {
-      printf("ERROR\n");
-    }
+    } 
 
     /* Problem 1 End */
   } 
@@ -63,8 +61,8 @@ int main(void) {
     int charZRD;
     int opt;
     int lvL;
-    int atkNME
-    int poWR
+    int atkNME;
+    int poWR;
     
     printf("Enter Pokemon Name (Pikachu : 1 or Charizard : 2): ");
     scanf("%d", &opt);
